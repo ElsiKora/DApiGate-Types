@@ -15,14 +15,14 @@ jobs:
 
       - name: Publish
         if: "!github.event.release.prerelease"
-        working-directory: ./dist
+        working-directory: ./
         run: |
           echo "//registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}" > .npmrc
           npm publish --access public
 
       - name: Publish release candidate
         if: "github.event.release.prerelease"
-        working-directory: ./dist
+        working-directory: ./
         run: |
           echo "//registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}" > .npmrc
           npm publish --access public --tag=next
