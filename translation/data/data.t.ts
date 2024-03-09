@@ -1,5 +1,5 @@
 // Version: 0.0.0
-import type { IPaginationList } from "../../shared/shared.t";
+import type { IPaginationList } from "../../shared";
 
 export interface ICreate {
 	key: string;

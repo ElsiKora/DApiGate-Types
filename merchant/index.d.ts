@@ -6,7 +6,7 @@ import type * as TransferType from "./transfer/transfer.t";
 import type * as WalletType from "./wallet/wallet";
 import type * as WaysType from "./ways/ways.t";
 
-import type { TPaginationResponse } from "../shared/shared.t";
+import type { TPaginationResponse } from "../shared";
 
 export declare namespace Merchant {
 	namespace Ways {

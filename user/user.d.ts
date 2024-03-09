@@ -8,7 +8,7 @@ import type * as UserType from "./user/user.t";
 import type * as WalletType from "./wallet/wallet.t";
 import type * as WayType from "./way/way.t";
 
-import type { TPaginationResponse } from "../shared/shared.t";
+import type { TPaginationResponse } from "../shared";
 
 export declare namespace User {
 	namespace Balance {

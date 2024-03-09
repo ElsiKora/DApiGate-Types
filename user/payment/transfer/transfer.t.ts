@@ -1,5 +1,5 @@
 // Version: 0.0.0
-import type { IPaginationList } from "../../../shared/shared.t";
+import type { IPaginationList } from "../../../shared";
 import type { IResponse as WayType } from "../../way/way.t";
 
 export enum ETransferStatus {
