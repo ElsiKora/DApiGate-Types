@@ -1,5 +1,11 @@
 # @elsikora/dapigate-types
 
+## 1.0.13
+
+### Patch Changes
+
+- Reorganize codebase and enhance build process
+
 ## 1.0.12
 
 ### Patch Changes
