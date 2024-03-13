@@ -1,14 +1,14 @@
 {
   "name": "@elsikora/dapigate-types",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "DApiGate Types",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ElsiKora/DApiGate-Types.git",
     "directory": "main"
   },
   "scripts": {
+    "build": "tsc -p ./tsconfig.json --outDir dist/",
     "patch": "npx changeset",
     "patch:release": "npx changeset version",
     "lint": "eslint . --ext .ts,.tsx --fix",
