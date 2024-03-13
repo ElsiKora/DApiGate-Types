@@ -1,5 +1,11 @@
 # @elsikora/dapigate-types
 
+## 1.0.14
+
+### Patch Changes
+
+- Filenames refactoring
+
 ## 1.0.13
 
 ### Patch Changes
