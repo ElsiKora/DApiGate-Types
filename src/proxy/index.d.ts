@@ -1,6 +1,6 @@
 // Version: 1.0.0
 
-import { Api } from "../api";
+import { Api } from "@/api";
 
 export declare namespace Proxy {
 	import IApiListRequestProperties = Api.IApiListRequestProperties;
