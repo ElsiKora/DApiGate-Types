@@ -1,5 +1,11 @@
 # @elsikora/dapigate-types
 
+## 1.0.12
+
+### Patch Changes
+
+- Update package version and enhance code quality checks
+
 ## 1.0.11
 
 ### Patch Changes
