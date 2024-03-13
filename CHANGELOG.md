@@ -1,5 +1,11 @@
 # @elsikora/dapigate-types
 
+## 1.0.15
+
+### Patch Changes
+
+- Update import path and clean up ESLint configuration
+
 ## 1.0.14
 
 ### Patch Changes
