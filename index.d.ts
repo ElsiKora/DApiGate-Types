@@ -1,10 +1,10 @@
-// Version: 0.0.0
+// Version: 1.0.0
 
 export = DApiGate;
-export * from "./shared";
 export * from "./rate";
+export * from "./proxy";
+export * from "./phone";
 export * from "./api";
-export * from "./shared";
 
 export as namespace DApiGate;
 

@@ -1,6 +1,6 @@
 {
   "name": "@elsikora/dapigate-types",
-  "version": "1.0.9",
+  "version": "1.0.12",
   "description": "DApiGate Types",
   "main": "index.js",
   "repository": {
@@ -9,10 +9,17 @@
     "directory": "main"
   },
   "scripts": {
+    "patch": "npx changeset",
+    "patch:release": "npx changeset version",
     "lint": "eslint . --ext .ts,.tsx --fix",
-    "format": "prettier --write \"src/**/*.ts\""
+    "format": "prettier --write \"**/*.ts\""
   },
   "devDependencies": {
+    "@dword-design/eslint-plugin-import-alias": "^5.0.0",
+    "@stylistic/eslint-plugin": "^1.6.3",
+    "@stylistic/eslint-plugin-ts": "^1.6.3",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-check-file": "^2.7.1",
@@ -26,13 +33,11 @@
     "eslint-plugin-sort-decorators": "^0.2.5",
     "eslint-plugin-typeorm-typescript": "^0.2.4",
     "eslint-plugin-unicorn": "^51.0.1",
-    "eslint-plugin-unused-imports": "^3.1.0",
-    "@dword-design/eslint-plugin-import-alias": "^5.0.0",
-    "@stylistic/eslint-plugin": "^1.6.3",
-    "@stylistic/eslint-plugin-ts": "^1.6.3",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0"
+    "eslint-plugin-unused-imports": "^3.1.0"
   },
   "author": "ElsiKora",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
 }
