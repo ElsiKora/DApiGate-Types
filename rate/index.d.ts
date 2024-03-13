@@ -6,7 +6,7 @@ export declare namespace Rate {
 		rate: number;
 	}
 
-	export interface IRateGetListProperties {
+	export interface IRateGetSimpleListRequestProperties {
 		base: string;
 	}
 }

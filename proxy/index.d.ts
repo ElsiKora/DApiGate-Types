@@ -1,9 +1,11 @@
 // Version: 1.0.0
 
-import type * as Api from "./api";
+import { Api } from "../api";
 
 export declare namespace Proxy {
-	export default interface IProxy {
+	import IApiListRequestProperties = Api.IApiListRequestProperties;
+
+	export interface IProxy {
 		country: string;
 		ip: string;
 		password: string;
@@ -11,7 +13,7 @@ export declare namespace Proxy {
 		username: string;
 	}
 
-	export interface IProxyGetListProperties extends Api.IApiListRequestProperties {
+	export interface IProxyGetListProperties extends IApiListRequestProperties {
 		country?: string;
 	}
 }

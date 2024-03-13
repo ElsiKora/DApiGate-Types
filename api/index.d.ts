@@ -9,6 +9,11 @@ export declare namespace Api {
 		totalPages: number;
 	}
 
+	export interface IApiSimpleListResponseProperties<T> {
+		items: Array<T>;
+		totalCount: number;
+	}
+
 	export interface IApiListRequestProperties {
 		limit: number;
 		page: number;
