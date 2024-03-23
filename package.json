@@ -7,15 +7,16 @@
 	"devDependencies": {
 		"@elsikora/eslint-config": "^2.0.7"
 	},
+	"files": [
+		"src",
+		"index.d.ts"
+	],
 	"license": "MIT",
 	"name": "@elsikora/dapigate-types",
 	"publishConfig": {
 		"access": "public"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ElsiKora/DApiGate-Types.git"
-	},
+	"repository": "ElsiKora/DApiGate-Types",
 	"scripts": {
 		"format": "prettier --write \"**/*.ts\" \"**/*.json\" \".github/**/*.yml\"",
 		"lint": "eslint ./src --ext .ts,.tsx,.json,.yml --fix && eslint ./*.json --fix",
