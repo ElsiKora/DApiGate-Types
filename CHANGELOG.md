@@ -1,5 +1,11 @@
 # @elsikora/dapigate-types
 
+## 1.0.17
+
+### Patch Changes
+
+- 726e274: Add publishConfig to package.json
+
 ## 1.0.16
 
 ### Patch Changes

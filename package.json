@@ -19,5 +19,5 @@
 		"patch": "changeset",
 		"release": "changeset publish"
 	},
-	"version": "1.0.16"
+	"version": "1.0.17"
 }
