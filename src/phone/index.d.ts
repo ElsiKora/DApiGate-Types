@@ -1,5 +1,3 @@
-// Version: 1.0.0
-
 export declare namespace Phone {
 	export interface IPhone {
 		carrier: null | string;
