@@ -1,5 +1,11 @@
 # @elsikora/dapigate-types
 
+## 1.0.20
+
+### Patch Changes
+
+- c3c6699: Add IP export to index.d.ts
+
 ## 1.0.19
 
 ### Patch Changes
