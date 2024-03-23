@@ -1,5 +1,11 @@
 # @elsikora/dapigate-types
 
+## 1.0.16
+
+### Patch Changes
+
+- c85f5eb: Refactor code and improve ESLint configuration
+
 ## 1.0.15
 
 ### Patch Changes
