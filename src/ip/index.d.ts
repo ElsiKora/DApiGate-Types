@@ -1,7 +1,7 @@
 export declare namespace Ip {
 	export interface IIp {
-		country: string;
-		currency: string;
+		country: null | string;
+		currency: null | string;
 		ip: string;
 	}
 
