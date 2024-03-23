@@ -1,5 +1,11 @@
 # @elsikora/dapigate-types
 
+## 1.0.18
+
+### Patch Changes
+
+- 38f2d76: Update repository details and increment version in package.json
+
 ## 1.0.17
 
 ### Patch Changes
