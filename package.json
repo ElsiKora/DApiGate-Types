@@ -12,7 +12,10 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"repository": "ElsiKora/DApiGate-Types",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ElsiKora/DApiGate-Types.git"
+	},
 	"scripts": {
 		"format": "prettier --write \"**/*.ts\" \"**/*.json\" \".github/**/*.yml\"",
 		"lint": "eslint ./src --ext .ts,.tsx,.json,.yml --fix && eslint ./*.json --fix",
