@@ -1,19 +1,19 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "declaration": true,
-    "removeComments": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
-    "target": "es2017",
-    "sourceMap": true,
-    "incremental": true,
-    "skipLibCheck": true,
-    "strictNullChecks": false,
-    "noImplicitAny": false,
-    "strictBindCallApply": false,
-    "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
-  }
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"forceConsistentCasingInFileNames": false,
+		"incremental": true,
+		"module": "commonjs",
+		"noFallthroughCasesInSwitch": false,
+		"noImplicitAny": false,
+		"removeComments": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strictBindCallApply": false,
+		"strictNullChecks": false,
+		"target": "es2017"
+	}
 }

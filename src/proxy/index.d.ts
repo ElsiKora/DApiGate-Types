@@ -1,5 +1,3 @@
-// Version: 1.0.0
-
 import { Api } from "../api";
 
 export declare namespace Proxy {
