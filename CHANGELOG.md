@@ -1,5 +1,11 @@
 # @elsikora/dapigate-types
 
+## 1.0.21
+
+### Patch Changes
+
+- ef40ea9: Allow null values for country and currency in IIp
+
 ## 1.0.20
 
 ### Patch Changes
