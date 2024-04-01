@@ -1,5 +1,11 @@
 # @elsikora/dapigate-types
 
+## 1.0.22
+
+### Patch Changes
+
+- 24426ae: Remove version from type definition files
+
 ## 1.0.21
 
 ### Patch Changes
