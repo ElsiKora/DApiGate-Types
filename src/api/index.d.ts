@@ -1,5 +1,3 @@
-// Version: 1.0.0
-
 export declare namespace Api {
 	export interface IApiListResponseProperties<T> {
 		count: number;
