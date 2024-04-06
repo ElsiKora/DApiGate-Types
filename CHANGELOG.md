@@ -1,5 +1,11 @@
 # @elsikora/dapigate-types
 
+## 1.1.0
+
+### Minor Changes
+
+- ecd38fa: Add email interfaces to type definitions
+
 ## 1.0.22
 
 ### Patch Changes
